@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(243, 235, 220);
+    font-family: "Tuffy", sans-serif;
+}
+
+h1 {
+    color: rgb(7, 7, 109);
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.subtitulo {
+    color: rgb(7, 7, 109);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(119, 0, 255);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.preview-artista {
+    padding: 5px;
+    border: 0.5px solid rgb(7, 7, 109);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+/* Serve apenas pras secundárias professora, pode ignorar aqui embaixo */
+
+.artista-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artista-dados {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.artista-dados div {
+    margin: 30px
+}
+
+img {
+    width: 20%;
+    border-radius: 20px;
+    margin-right: 20px;
+}
