@@ -1,0 +1,12 @@
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2px;
+}
+
+.dias, .periodo {
+    background-color: rgba(30, 255, 0, 0.411);
+}
